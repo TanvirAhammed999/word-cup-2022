@@ -1,0 +1,251 @@
+/* RESPOSIBE FOR MOBLILE START */
+
+@media only screen and (max-width:576px) {
+    main {
+        overflow: hidden;
+    }
+
+    .hero-area {
+        flex-direction: column;
+        width: 93%;
+        margin-left: 1em;
+        padding-left: 0;
+        padding-bottom: 5em;
+    }
+
+    .frist-sec-info {
+        width: 100%;
+        text-align: center;
+        padding: 1.875em;
+    }
+
+    .frist-sec-info h1 {
+        font-size: 1.5625em;
+        align-items: center;
+        line-height: 2em;
+        margin-bottom: 0;
+    }
+
+    .frist-sec-info p {
+        line-height: 1.7em;
+        padding-top: 1em;
+        font-size: 0.75em;
+        width: 200%;
+        padding-right: 100%;
+    }
+
+    .frist-sec-info a {
+        text-align: center;
+        padding: 1em 1em;
+        margin-left: -0.625em;
+        border-radius: 0.3em;
+    }
+
+    .hreo-area-banner {
+        width: 100%;
+    }
+
+    .hero-area img {
+        padding-top: 1.875em;
+        width: 90%;
+        margin-left: 1.875em;
+    }
+
+    .our-blogs {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .button {
+        width: 100%;
+        background: #fff;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .button a {
+        border: 1px solid gray;
+    }
+
+    .articles-info {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr;
+        margin-left: 12%;
+        padding-bottom: 50px;
+    }
+
+    .article-info {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    footer ul {
+        margin-top: -2em;
+        margin-left: 5em;
+    }
+
+    footer ul li {
+        padding-top: 1.5em;
+    }
+
+    /* Upcoming page style start  */
+    .our-matches {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .our-match {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr;
+        margin-left: 12%;
+        padding-bottom: 50px;
+    }
+
+    /* Upcoming page style end  */
+}
+
+/* RESPOSIBE FOR MOBLILE END */
+
+
+/* RESPOSIBE FOR TAB START */
+@media Only screen and (min-width:577px) and (max-width:992px) {
+    main {
+        overflow: hidden;
+    }
+
+    .hero-area {
+        width: 96%;
+        margin-left: 1em;
+        padding-left: 0;
+        padding-bottom: 0;
+    }
+
+    .frist-sec-info {
+        width: 100%;
+        padding: 2em;
+    }
+
+    .frist-sec-info h1 {
+        padding-top: 2em;
+        font-size: 3em;
+        line-height: 4rem;
+    }
+
+    .frist-sec-info p {
+        line-height: 1.7em;
+        padding-top: 1em;
+        font-size: 1.125em;
+        width: 200%;
+        padding-right: 100%;
+    }
+
+    .frist-sec-info a {
+        text-align: center;
+        padding: 1em 1em;
+        margin-left: -0.625em;
+        border-radius: 0.3em;
+    }
+
+    .hreo-area-banner {
+        width: 100%;
+    }
+
+    .hero-area img {
+        padding-top: 1.875em;
+        width: 90%;
+        margin-left: 1.875em;
+    }
+
+    .our-blogs {
+        width: 87%;
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .button {
+        width: 100%;
+        background: #fff;
+        margin-left: 4em;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 1em;
+    }
+
+    .button a {
+        border: 1px solid gray;
+    }
+
+    .articles-info {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 12%;
+        padding-bottom: 50px;
+    }
+
+    .articles-img:nth-child(7) {
+        display: none;
+    }
+
+    .articles-img:nth-child(8) {
+        display: none;
+    }
+
+    .articles-img:nth-child(9) {
+        display: none;
+    }
+
+    .article-info {
+        width: 100%;
+    }
+
+    .tab-button {
+        margin-left: 68%;
+        margin-top: 2em;
+        visibility: visible;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    footer ul li {
+        padding-top: 2em;
+    }
+
+    /* Upcoming match page resposibe style start */
+    .our-matches {
+        width: 87%;
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .button {
+        margin-left: 2.7em;
+    }
+
+    .our-match {
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 5em;
+    }
+
+    .match-info {
+        margin-left: 20%;
+
+    }
+
+    /* Upcoming match page resposibe style end */
+}
+
+/* RESPOSIBE FOR TAB START */

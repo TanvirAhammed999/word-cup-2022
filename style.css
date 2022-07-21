@@ -1,0 +1,244 @@
+* {
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Gruppo&   family=Josefin+Sans&family=Poppins:ital,wght@0,400;0,500;1,300&family=Teko:wght@600&    display=swap');
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Hero area style  */
+.hero-area {
+    display: flex;
+    background: #161616;
+    border-radius: 1em;
+    margin: 5em;
+}
+
+.container {
+    width: 50%;
+}
+
+.frist-sec-info {
+    padding: 6.625em 6.9375em 1.5em 6.9375em;
+}
+
+.hreo-area-banner img {
+    width: 36.3125em;
+    height: 38.3125em;
+}
+
+.frist-sec-info h1 {
+    font-size: 3.125em;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 1em;
+}
+
+.frist-sec-info p {
+    color: #fff;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1.625em;
+    margin-bottom: 40px;
+}
+
+.frist-sec-info a {
+    text-decoration: none;
+    padding: 1em 1.5625em;
+    background: #DD0000;
+    color: #fff;
+}
+
+.container i {
+    color: #fff;
+}
+
+/* Match and blogs style  */
+.our-blogs {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.button {
+    background: #161616;
+    border: radius 0.625em;
+    ;
+    width: 19.5em;
+    height: 19.5em;
+    padding: 30px;
+}
+
+.button a {
+    display: block;
+    text-decoration: none;
+    padding: 1.25em 1.875em;
+    border-radius: 10px;
+    background: #fff;
+    color: black;
+    margin-top: 1.5625em;
+    text-align: center;
+}
+
+.button .blog-button {
+    background: #DD0000;
+    color: #fff;
+}
+
+/* Our articles style  */
+
+.article-info {
+    width: 19.5em;
+    height: 22.625em;
+
+}
+
+.articles-img {
+    width: 18.75em;
+    height: 22.625em;
+    border: 1px solid rgb(166, 163, 163);
+    border: radius 10px;
+}
+
+.articles-img img {
+    width: 18.75em;
+    height: 10.93em;
+}
+
+.articles-img p a {
+    text-decoration: none;
+    color: #161616;
+    padding: 0.625em 1.5625em;
+    border: 1px solid gainsboro;
+    margin-left: 5px;
+}
+
+.articles-img p {
+    font-size: 1.125em;
+    line-height: 1.6875em;
+    margin-left: 1.25em;
+    padding-top: 1.25em;
+}
+
+.fa-light {
+    padding-top: 1.25em;
+    margin-left: 1.25em;
+    color: rgb(59, 56, 56);
+}
+
+.articles-img span {
+    margin-left: .615em;
+    color: gray;
+}
+
+.our-blogs {
+    display: flex;
+    padding-bottom: 4.375em;
+}
+
+.articles-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25em;
+    margin-left: 1.25em;
+}
+
+.tab-button {
+    text-decoration: none;
+    padding: 1.25em 1.875em;
+    border-radius: 5px;
+    width: 50%;
+    text-align: center;
+    background: #DD0000;
+    color: #fff;
+    visibility: hidden;
+}
+
+/* Footer style  */
+footer {
+    background: #161616;
+}
+
+footer h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 1.875em;
+    padding-bottom: 1.125em;
+    padding-top: 3.75em;
+}
+
+hr {
+    width: 70%;
+    margin-left: 15%;
+    color: rgb(159, 151, 151);
+    margin-bottom: 3.75em;
+}
+
+footer ul {
+    margin-left: 6.875em;
+    padding-bottom: 3.75em;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.25em;
+    padding: 1em 2em;
+    font-weight: 300;
+}
+
+/* Upcoming match page style  */
+.our-matches {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.button .match-button {
+    background: #DD0000;
+    color: #fff;
+}
+
+.our-matches {
+    display: flex;
+    gap: 1.25em;
+    padding-bottom: 4.375em;
+}
+
+.match-info {
+    width: 18.75em;
+    height: 15.125em;
+    border: 1px solid rgb(153, 141, 141);
+    padding: 3.4375em 1.875em;
+}
+
+.match {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.match-detail p {
+    font-size: 1.25em;
+    font-weight: 600;
+    color: #161616;
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
+    margin-left: 1.25em;
+}
+
+.match-detail span {
+    font-size: 1em;
+    font-weight: 400;
+    color: #4D4D4D;
+    margin-left: 1.5625em;
+}
+
+.our-match {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25em;
+}
