@@ -96,7 +96,7 @@
     width: 18.75em;
     height: 22.625em;
     border: 1px solid rgb(166, 163, 163);
-    border: radius 10px;
+    border-radius: 10px;
 }
 
 .articles-img img {
